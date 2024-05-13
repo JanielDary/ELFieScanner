@@ -1,0 +1,66 @@
+{
+    "cmdl": "./test_proc_32",
+    "disk_backed": true,
+    "dynamic_segment_present": true,
+    "entry_point_in_text": true,
+    "entry_points_match": true,
+    "entry_score": 100,
+    "hostname": "groovy64",
+    "libc_present": true,
+    "manipulated_headers": false,
+    "module_results": [
+        {
+            "disk_backed": false,
+            "entry_point_in_text": false,
+            "entry_points_match": false,
+            "mod_init_fini": {
+                "fini_array_in_text": true,
+                "fini_in_text": true,
+                "init_array_in_text": true,
+                "init_at_text_start": true,
+                "init_in_text": true,
+                "number_of_fini_array_funcs": 0,
+                "number_of_init_array_funcs": 0,
+                "number_of_preinit_array_funcs": 0,
+                "preinit_array_in_text": true
+            },
+            "module_path": "linux-gate.so.1"
+        },
+        {
+            "disk_backed": true,
+            "entry_point_in_text": true,
+            "entry_points_match": true,
+            "mod_init_fini": {
+                "fini_array_in_text": true,
+                "fini_in_text": true,
+                "init_array_in_text": false,
+                "init_at_text_start": true,
+                "init_in_text": true,
+                "number_of_fini_array_funcs": 0,
+                "number_of_init_array_funcs": 4,
+                "number_of_preinit_array_funcs": 0,
+                "preinit_array_in_text": true
+            },
+            "module_path": "/root/scripts/libc.so.6"
+        }
+    ],
+    "pid": 28201,
+    "ppid": 4802,
+    "proc_init_fini": {
+        "fini_array_in_text": true,
+        "fini_in_text": true,
+        "init_array_in_text": true,
+        "init_at_text_start": true,
+        "init_in_text": true,
+        "number_of_fini_array_funcs": 1,
+        "number_of_init_array_funcs": 1,
+        "number_of_preinit_array_funcs": 0,
+        "preinit_array_in_text": true
+    },
+    "proc_path": "/root/scripts/test_proc_32",
+    "program_hdr_offset": 52,
+    "section_hdr_offset": 14480,
+    "text_segment_present_disk": true,
+    "text_segment_present_mem": true,
+    "timestamp": 1628256219
+}

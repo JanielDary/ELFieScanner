@@ -1,0 +1,163 @@
+# LibCheck Mapping
+
+PUT ibs_libCheck/_mapping
+{
+   "properties": {
+      "timestamp": { 
+         "type": "date",
+         "format": "epoch_second"
+      },
+      "pid": { 
+         "type": "integer"
+      },
+      "base_address": { 
+         "type": "unsigned_long"
+      },
+      "manipulated_program_headers": { 
+         "type": "boolean"
+      },
+      "ppid": { 
+         "type": "integer"
+      },
+      "hostname": { 
+         "type": "text"
+      },
+      "proc_path": {
+         "type": "text"
+      },
+      "cmdl": { 
+         "type": "text"
+      },
+      "dynamic_segment_present": { 
+         "type": "boolean"
+      },
+      "dt_null_present": { 
+         "type": "boolean"
+      },
+      "dt_debug_present": { 
+         "type": "boolean"
+      },
+      "dt_needed_wrong_order": { 
+         "type": "boolean"
+      },
+      "dt_needed_indexes": { 
+         "type": "nested",
+         "properties": {
+            "index_into_dt_strtab": { 
+               "type": "integer"
+            },
+            "module_name": { 
+               "type": "text"
+            },
+            "dt_needed_index": { 
+               "type": "integer"
+            },
+            "name_in_dynstr": { 
+               "type": "boolean"
+            }
+         }
+      },
+      "dynstr_manipulated": { 
+         "type" : "boolean"
+      },
+      "preloaded_libraries": { 
+         "type" : "text"
+      },
+      "ld_preload_present": { 
+         "type": "boolean"
+      },
+      "ld_preload": { 
+         "type": "text"
+      },
+      "ld_preload_hooking_present": { 
+         "type": "boolean"
+      },
+      "ld_preload_hooked_funcs": { 
+         "type": "nested",
+         "properties": {
+            "original_module_path": { 
+               "type": "text"
+            },
+            "preload_module_path": { 
+               "type": "text"
+            },
+            "preload_func_addr": { 
+               "type": "unsigned_long"
+            },
+            "symbol_name": { 
+               "type": "text"
+            }
+         }
+      },
+      "ld_config_present": { 
+         "type": "boolean"
+      },
+      "ld_config": { 
+         "type": "text"
+      },
+      "ld_path_present": { 
+         "type": "boolean"
+      },
+      "ld_path": { 
+         "type": "text"
+      },
+      "anonymous_memory_mappings": {
+         "type": "nested",
+         "properties": {
+            "start_addr": {
+               "type": "unsigned_long"
+            },
+            "end_addr": {
+               "type": "unsigned_long"
+            },
+            "elf_magic_present": {
+               "type": "boolean"
+            },
+            "elf_magic_index": {
+               "type": "unsigned_long"
+            },
+            "is_r": {
+               "type": "short"
+            },
+            "is_w": {
+               "type": "short"
+            },
+            "is_x": {
+               "type": "short"
+            },
+            "is_p": {
+               "type": "short"
+            }
+         }
+      },
+      "__libc_dlopen_mode_present": {
+         "type": "boolean"
+      },
+      "__libc_dlopen_mode_present_in": {
+         "type": "text"
+      },
+      "module_cross_references": {
+         "type": "nested",
+         "properties": {
+            "module_path": {
+               "type": "text"
+            },
+            "in_dt_needed_list": {
+               "type": "boolean"
+            },
+            "in_link_maps_list": {
+               "type": "boolean"
+            },
+            "in_proc_maps_list": {
+               "type": "boolean"
+            },
+            "disk_backed": {
+               "type": "boolean"
+            },
+            "base_addr": {
+               "type": "unsigned_long"
+            }
+         }
+      }
+   }
+}

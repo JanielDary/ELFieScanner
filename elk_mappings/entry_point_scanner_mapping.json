@@ -1,0 +1,56 @@
+PUT ibs_entrycheck/_mapping
+{
+  "properties": {
+     "timestamp":               { "type": "date", "format": "epoch_second"},
+     "pid":                     {"type": "integer"},
+     "ppid":                    {"type": "integer"},
+     "hostname":                {"type": "text"},
+     "proc_path":               {"type": "text"},
+     "cmdl":                    {"type": "text"},
+     "disk_backed":             {"type": "boolean"},
+     "dynamic_segment_present": {"type": "boolean"},
+     "manipulated_headers":     {"type": "boolean"},
+     "program_hdr_offset":      {"type": "unsigned_long"},
+     "section_hdr_offset":      {"type": "unsigned_long"},
+     "text_segment_present_disk":    {"type": "boolean"},
+     "text_segment_present_mem":    {"type": "boolean"},
+     "entry_points_match":      {"type": "boolean"},
+     "entry_point_in_text":     {"type": "boolean"},
+     "libc_present":            {"type": "boolean"},
+     "entry_score":             {"type": "integer"},
+     "proc_init_fini":     {"type": "nested",
+        "properties": {
+        "fini_array_in_text":           {"type": "boolean"},
+        "fini_in_text":                 {"type": "boolean"},
+        "init_array_in_text":           {"type": "boolean"},
+        "init_at_text_start":           {"type": "boolean"},
+        "init_in_text":                 {"type": "boolean"},
+        "number_of_fini_array_funcs":   {"type": "integer"},
+        "number_of_init_array_funcs":   {"type": "integer"},
+        "number_of_preinit_array_funcs": {"type": "integer"},
+        "preinit_array_in_text":        {"type": "boolean"}
+      }
+     },
+     "module_results":     {"type": "nested",
+        "properties": {
+          "module_path":              {"type": "text"},
+          "disk_backed":              {"type": "boolean"},
+          "entry_points_match":       {"type": "boolean"},
+          "entry_point_in_text":      {"type": "boolean"},
+          "mod_init_fini":  {"type": "nested",
+          "properties": {
+            "fini_array_in_text":             {"type": "boolean"},
+            "fini_in_text":                   {"type": "boolean"},
+            "init_array_in_text":             {"type": "boolean"},
+            "init_at_text_start":             {"type": "boolean"},
+            "init_in_text":                   {"type": "boolean"},
+            "number_of_fini_array_funcs":     {"type": "integer"},
+            "number_of_init_array_funcs":     {"type": "integer"},
+            "number_of_preinit_array_funcs":  {"type": "integer"},
+            "preinit_array_in_text":          {"type": "boolean"}
+          }
+        }
+      }
+    }
+  }
+}

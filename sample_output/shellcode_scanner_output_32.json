@@ -1,0 +1,49 @@
+{
+    "base_address": 140259471920216,
+    "cmdl": "./test_proc_32",
+    "disk_backed": true,
+    "dynamic_segment_present": true,
+    "hostname": "groovy64",
+    "memfd_mapping_found": false,
+    "module_scores": [
+        {
+            "base_address": 4159942656,
+            "disk_backed": false,
+            "mod_number_of_headers_disk": 32656,
+            "mod_number_of_headers_mem": 4,
+            "mod_rwx_header_present_disk": false,
+            "mod_rwx_header_present_mem": false,
+            "mod_text_score": -1,
+            "module_path": "linux-gate.so.1"
+        },
+        {
+            "base_address": 4157870080,
+            "disk_backed": true,
+            "mod_number_of_headers_disk": 13,
+            "mod_number_of_headers_mem": 13,
+            "mod_rwx_header_present_disk": false,
+            "mod_rwx_header_present_mem": false,
+            "mod_text_score": 100,
+            "module_path": "/root/scripts/libc.so.6"
+        },
+        {
+            "base_address": 4159950848,
+            "disk_backed": true,
+            "mod_number_of_headers_disk": 10,
+            "mod_number_of_headers_mem": 10,
+            "mod_rwx_header_present_disk": false,
+            "mod_rwx_header_present_mem": false,
+            "mod_text_score": 100,
+            "module_path": "/lib/ld-linux.so.2"
+        }
+    ],
+    "pid": 28201,
+    "ppid": 4802,
+    "proc_number_of_headers_disk": 12,
+    "proc_number_of_headers_mem": 12,
+    "proc_path": "/root/scripts/test_proc_32",
+    "proc_score": 100,
+    "rwx_or_wx_present_disk": false,
+    "rwx_or_wx_present_mem": false,
+    "timestamp": 1628256219
+}

@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: g++ build active file",
+			"command": "/usr/bin/g++",
+			"args": [
+				"-std=c++17",
+				"-O0",
+				"'-Wl,-rpath,$ORIGIN'",
+				"-g",
+				"${fileDirname}/**.cpp",
+            	"${fileDirname}/**.h",
+				"-pthread",
+				"-lfuzzy",
+				"-o",
+				"${fileDirname}/ELFie"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/g++"
+		}
+	]
+}

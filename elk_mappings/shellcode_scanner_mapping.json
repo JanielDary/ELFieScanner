@@ -1,0 +1,85 @@
+# detectSC mapping
+
+PUT ibs_detectsc
+DELETE ibs_detectsc
+
+PUT ibs_detectsc/_mapping
+{
+  "properties": {
+    "cmdl": {
+      "type": "text"
+    },
+    "base_address": {
+      "type": "unsigned_long"
+   },
+    "disk_backed": {
+      "type": "boolean"
+    },
+    "dynamic_segment_present": {
+      "type": "boolean"
+    },
+    "hostname": {
+      "type": "text"
+    },
+    "memfd_mapping_found": {
+      "type": "boolean"
+    },
+    "module_scores": {
+      "type": "nested",
+      "properties": {
+        "disk_backed": {
+          "type": "boolean"
+        },
+        "base_address": {
+          "type": "unsigned_long"
+       },
+        "mod_number_of_headers_disk": {
+          "type": "integer"
+        },
+        "mod_number_of_headers_mem": {
+          "type": "integer"
+        },
+        "mod_rwx_header_present_disk": {
+          "type": "boolean"
+        },
+        "mod_rwx_header_present_mem": {
+          "type": "boolean"
+        },
+        "mod_text_score": {
+          "type": "integer"
+        },
+        "module_path": {
+          "type": "text"
+        }
+      }
+    },
+    "pid": {
+      "type": "integer"
+    },
+    "ppid": {
+      "type": "integer"
+    },
+    "proc_number_of_headers_disk": {
+      "type": "integer"
+    },
+    "proc_number_of_headers_mem": {
+      "type": "integer"
+    },
+    "proc_path": {
+      "type": "text"
+    },
+    "proc_score": {
+      "type": "integer"
+    },
+    "rwx_or_wx_present_disk": {
+      "type": "boolean"
+    },
+    "rwx_or_wx_present_mem": {
+      "type": "boolean"
+    },
+    "timestamp": {
+      "type": "date",
+      "format": "epoch_second"
+    }
+  }
+}

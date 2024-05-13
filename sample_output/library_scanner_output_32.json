@@ -1,0 +1,435 @@
+{
+    "__libc_dlopen_mode_present": false,
+    "_libc_dlopen_mode_addr": 0,
+    "anonymous_memory_mappings": [],
+    "base_address": 1449062400,
+    "cmdl": "./test_proc_32",
+    "debug_section_present": true,
+    "dt_needed_indexes": [
+        {
+            "dt_needed_index": 0,
+            "index_into_dt_strtab": 67,
+            "module_name": "libc.so.6",
+            "name_in_dynstr": true
+        }
+    ],
+    "dt_needed_wrong_order": false,
+    "dt_null_present": true,
+    "dynamic_segment_present": true,
+    "dynstr_manipulated": false,
+    "headers_manipulated": false,
+    "hostname": "groovy64",
+    "ld_config": "",
+    "ld_config_present": false,
+    "ld_path": "",
+    "ld_path_present": false,
+    "ld_preload": "/root/scripts/libc.so.6",
+    "ld_preload_hooked_funcs": [
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "sleep",
+            "ld_preload_func_addr": 78758473728,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "__gmon_start__",
+            "ld_preload_func_addr": 138888015872,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "_IO_stdin_used",
+            "ld_preload_func_addr": 5066624044298244,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "linux-gate.so.1"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "sleep",
+            "ld_preload_func_addr": 78758473728,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "__gmon_start__",
+            "ld_preload_func_addr": 138888015872,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "_IO_stdin_used",
+            "ld_preload_func_addr": 5066624044298244,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062421,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062416,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062542,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        },
+        {
+            "hooked_func_name": "",
+            "ld_preload_func_addr": 1449062400,
+            "original_module_path": "/lib/ld-linux.so.2"
+        }
+    ],
+    "ld_preload_hooking_present": true,
+    "ld_preload_present": true,
+    "module_cross_references": [
+        {
+            "base_addr": 4159942656,
+            "disk_backed": false,
+            "in_dt_needed_list": false,
+            "in_link_maps_list": true,
+            "in_proc_maps_list": false,
+            "module_path": "linux-gate.so.1"
+        }
+    ],
+    "pid": 28201,
+    "ppid": 4802,
+    "proc_path": "/root/scripts/test_proc_32",
+    "timestamp": 1628256219
+}
