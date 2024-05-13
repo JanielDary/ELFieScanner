@@ -3,8 +3,7 @@ This tool was presented at:
 https://www.blackhat.com/asia-24/arsenal/schedule/index.html#elfiescanner-advanced-process-memory-threat-detection-on-linux-37672
 
 ---
-<img src="https://github.com/JanielDary/ELFieScanner/assets/60667846/6c1d82d9-1b58-4ac6-a6ab-3dee58e7003f" width="400" height="400"> <br>
-<img src="https://github.com/JanielDary/ELFMemScan/assets/60667846/e72fae35-962e-434a-8733-9c4d366832a5" width="400">   
+<img src="images/ELFieScanner.jpeg" width="400"> <br>
 #
 
 A C++ POC for advanced process memory scanning that attempts to detect a number of malicious techniques used by threat actors & those which have been incorporated into open-source user-mode rootkits.
@@ -25,7 +24,7 @@ Kibana mappings have also been provided for the output files should one wish to 
 **A more detailed description of each scanning type can be found in the <mark>Scanner descriptions</mark> section of this README.**
 
 ## Usage:
-![image](https://github.com/JanielDary/ELFMemScan/assets/60667846/e40e9a3f-1e68-485c-bac3-e3dc7e380ff2)
+<img src="images/ELFieScanner_usage.png"> <br>
 
 NOTE: By not including the flag '-p' ELFieScanner will default to scanning all running processes on host.
 
