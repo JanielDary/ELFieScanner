@@ -3,7 +3,7 @@ This tool was presented at:
 https://www.blackhat.com/asia-24/arsenal/schedule/index.html#elfiescanner-advanced-process-memory-threat-detection-on-linux-37672
 
 ---
-<img src="https://github.com/JanielDary/ELFieScanner/assets/60667846/fc32fefc-93e3-43e9-b1fa-0a3d47d687b0" width="400" height="400"><br>
+<img src="https://github.com/JanielDary/ELFieScanner/assets/60667846/6c1d82d9-1b58-4ac6-a6ab-3dee58e7003f" width="400" height="400"> <br>
 <img src="https://github.com/JanielDary/ELFMemScan/assets/60667846/e72fae35-962e-434a-8733-9c4d366832a5" width="400">   
 #
 
